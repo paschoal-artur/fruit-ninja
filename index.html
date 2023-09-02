@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/css/screen.css" rel="stylesheet" />
+    <script src="https://qtlearncodelab.github.io/qtpi-shared/qad/js/releases/latest/p5.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script
+      defer
+      src="https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/qtwc.js"
+    ></script>
+    <script defer src="sketch.js" type="module"></script>
+    <!-- <script defer src="qtlogic.js" type="module"></script> -->
+  </head>
+  <body>
+    <qt-board-ble
+      id="board"
+      ccs="true"
+      board-name="ble"
+      board-type="qtneo"
+      service-uuid="1011"
+    ></qt-board-ble>
+    <qt-mpu id="mpu1"></qt-mpu>
+  </body>
+</html>
